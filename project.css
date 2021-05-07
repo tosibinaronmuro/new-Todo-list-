@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Maven Pro', sans-serif;
+}
+section{
+    display:flex;
+    flex-direction: column;
+     width: 100%;
+     
+    
+}
+.heading{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+ .space{
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+    width: 80%;
+}
+.innput{
+    margin: 0 0 10px 0;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+     
+}
+#write{
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border : none;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+#submit{
+    width: 23%;
+    margin: 0;
+    padding: 0;
+    border-left:solid #f4f4f4;
+    background-color: #8578fa;
+    border : none;
+    height: 100%;
+    border-radius: 5px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px
+}
+.list{
+    display: flex;
+ width:  100%;
+ padding: 7px 0;
+ font-size: 90%
+ 
+
+}
+.list:hover{
+    background-color: aliceblue;
+    border-radius: 5px
+}
+.item{
+    flex: 4;
+    padding: 3px;
+     
+}
+.clear{
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    border: none;
+    background-color: transparent;
+     
+}
+.hidecontainer{
+    visibility: hidden;
+}
+.ul{ 
+    /* visibility: hidden */
+    /* margin: 50px 5px */ 
+}
+#font-delete{
+    justify-content: center;
+    align-content: center;
+    color: red;
+    padding: 5px 10px 5px 5px;
+    font-size: 80%
+}
+#font-edit{
+    justify-content: center;
+    align-content: center;
+    color: rgb(63, 179, 48);
+    padding: 5px 5px 5px 10px;
+    font-size: 80%
+}
+.alert{
+    display: flex;
+ /* background-color: blue; */
+ height: 24px;
+ margin: 0 10px;
+ border-radius: 5px;
+ justify-content: center;
+ text-align: center;
+ align-content: center;
+ margin: auto;
+ font-size: 90%;
+
+}
+.alert-danger{
+    background: #f8d7da;
+    color: #721c24
+}
+.alert-success{
+    background: #d4edda;
+    color: #155724
+}
+@media(min-width:800px){
+    .space{
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 7px;
+        width: 50%;
+    }
+}
